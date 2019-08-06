@@ -1,0 +1,74 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.dark-blue-background{
+  background-color: #000033;
+}
+.white-font{
+  color: white
+}
+.blue-font{
+  color: $secondary-color;
+}
+.blue-light-font{
+  color: #66ccff;
+}
+.yellow-font{
+  color: #ffcc33;
+}
+.header-bar-font{
+  font-size: 10px;
+}
+.saludo{
+  font-weight: bold;
+  color: $secondary-color;
+  font-size: 24px
+}
+.nombre{
+  color: $primary-color;
+  font-size: 20px
+}
+.t1{
+  font-size: 34px;
+  font-weight: bold;
+}
+.t2{
+  font-size: 34px;
+  font-weight: bold;
+}
+.t3{
+  font-size: 18px;
+}
+.border-top {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+.no-padding{
+  padding: 0!important;
+}
+.no-margin{
+  margin: 0!important;
+}
+.width-100{
+  width: 100%;
+}
+.ev1{
+  font-weight: bold;
+  font-size: 30px;
+}
+.ev2{
+  font-weight: bold;
+  font-size: 26px;
+}
+.ev3{
+  font-size: 14px;
+}
+.ev4{
+  font-size: 16px;
+  border-left-style:solid;
+  border-left-width: 5px;
+  border-left-color: #66ccff; 
+  padding-left: 20px ;
+}
