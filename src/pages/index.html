@@ -3,22 +3,33 @@ layout: index-layout
 subject: My Email Templates
 ---
 
-<spacer size="16"></spacer>
 
 <container>
   <row class="dark-blue-background ">
-    <columns>
+    <columns >
       <spacer size="10"></spacer>
-      <p class="text-left small-text-center white-font header-bar-font">
-        VER EN NAVEGADOR
+      <p class="text-left small-text-center white-font header-bar-font padding">
+        <a href="" class="link">
+          VER EN NAVEGADOR
+        </a>
       </p>
     </columns>
     <columns>
       <spacer size="10"></spacer>
-      <p class="text-right small-text-center white-font header-bar-font">
-        MI CUENTA
-        |
-        BOEHRINGER INGELHEIM MÉXICO
+      <p class="text-right small-text-center white-font header-bar-font padding">
+          <a href="" class="link">
+          
+            MI CUENTA
+            </a>
+        <span class="blue-light-font">
+          <b>
+            |
+          </b>
+        </span>
+        <a href="" class="link">
+          
+          BOEHRINGER INGELHEIM MÉXICO
+          </a>
       </p>
     </columns>
   </row>
@@ -32,7 +43,7 @@ subject: My Email Templates
   <row>
     <columns>
       <center>
-        <span class="saludo">BIENVENIDO: Dr.(a)</span> <span class="nombre">${givenName} ${familyName}</span>
+        <span class="saludo  padding">BIENVENIDO: Dr.(a)</span> <span class="nombre">${givenName} ${familyName}</span>
       </center>
     </columns>
   </row>
@@ -45,23 +56,23 @@ subject: My Email Templates
     </columns>
     <columns large="10">
       <spacer size="10"></spacer>
-      <span class="white-font t1">BOEHRINGER INGELHEIM</span><br>
-      <span class="blue-font t2">EVENTOS ONLINE</span><br>
-      <span class="yellow-font t3">Usted puede estar presente en los eventos online exclusivos:</span>
+      <div class="white-font t1 padding">BOEHRINGER INGELHEIM</div>
+      <div class="blue-font t2 padding">EVENTOS ONLINE</div>
+      <div class="yellow-font t3 padding">Usted puede estar presente en los eventos online exclusivos:</div>
     </columns>
   </row>
 
   <row class="dark-blue-background border-top ">
     <columns class="white-font">
       <br>
-      <p class="white-font ev1 centro">ICC 2019</p><br>
-      <p class="blue-font ev2 centro">“Intercambio Científico Cardiometabólico”</p><br>
-      <p class="white-font ev3 centro">Las conferencias sobre los avances científicos en el área 
-        cardiometabólica, impartidas por reconocidos ponentes nacionales e internacionales.</p><br>
-      <p class="white-font ev4 centro">La transmisión del Dr. Subodh Verma, 
-        <span class="blue-light-font">distinguido investigador cardiovascular,</span> 
+      <p class="padding white-font ev1">ICC 2019</p>
+      <p class="padding blue-font ev2"> Científico Cardiometabólico”</p><br>
+      <p class="padding white-font ev3">Las conferencias sobre los avances científicos en el área 
+        cardiometabólica, impartidas por reconocidos ponentes nacionales e internacionales.</p>
+      <p class="padding white-font ev4">La transmisión del <b>Dr. Subodh Verma</b>, 
+        <span class="padding blue-light-font"><b>distinguido investigador cardiovascular,</b></span> 
         será en tiempo real desde Canadá. </p><br>
-      <a href="" target="blank"><img class="centro" src="assets/img/0805_BI_BOLETIN_BIclick_13.jpg" alt=""></a>
+      <a href="" target="blank"><img class="padding centro" src="assets/img/0805_BI_BOLETIN_BIclick_13.jpg" alt=""></a>
       
     </columns>
     <columns class="no-padding no-margin">
@@ -78,19 +89,21 @@ subject: My Email Templates
     </columns>
     <columns large="10">
       <spacer size="10"></spacer>
-      <span class="white-font t2">DESTACADOS</span><br>
-      <span class="yellow-font t3">Conozca los eventos y cursos más relevantes de esta temporada:</span>
+      <div class="white-font t2 padding">DESTACADOS</div>
+      <div class="yellow-font t3 padding">Conozca los eventos y cursos más relevantes de esta temporada:</div>
     </columns>
   </row>
   <row class="blue-background border-top ">
     <columns class="white-font" large="6">
       <br>
-      <p class="white-font evv1 centro">Angels Academy 2019</p>
-      <p class="blue-light-font evv2 centro">“SALVANDO LA VIDA DE MILESDE PACIENTES”</p>
-      <p class="white-font evv3 centro">Evento enfocado a mejorar la atención delos pacientes con <b>Enfermedad 
+      <p class="padding white-font evv1">Angels Academy 2019</p>
+      <p class="padding blue-light-font evv2">“SALVANDO LA VIDA DE MILES DE PACIENTES”</p>
+      <p class="padding white-font evv3">Evento enfocado a mejorar la atención de los pacientes con <b>Enfermedad 
         Vascular Cerebral (EVC)</b>, con ponencias de invitados internacionales sobre protocolos y 
-        redesde atención del EVC.</p><br>
-      <a href="" target="blank"><img class="centro" src="assets/img/0805_BI_BOLETIN_BIclick_24.jpg" alt=""></a>
+        redes de atención del EVC.<br><br>
+
+        <a href="" target="blank" class=""><img  src="assets/img/0805_BI_BOLETIN_BIclick_24.jpg" alt=""></a>
+      </p>
       
     </columns>
     <columns class="no-padding no-margin" large="6">
@@ -104,15 +117,15 @@ subject: My Email Templates
     </columns>
     <columns class="white-font" large="6">
       <br>
-      <p class="white-font evv1 centro text-right">CIEM 2019</p>
-      <p class="white-font evv3 centro text-right"><b>Avalado por la UNAM</b>, este 
+      <p class="white-font evv1 text-right">CIEM 2019</p>
+      <p class="white-font evv3 centro text-right"><b>Avalado por la UNAM</b>, este  
         <span class="blue-light-font"><b>Curso Integral para 
-        Expertos en Medicina</b></span> como usted, brinda conocimientos yherramientas esenciales 
-        para prevenir, detectary atender de manera oportuna y efectivadistintas 
-        enfermedades, con un enfoque enáreas terapéuticas como: <b>respiratorio, 
-        cardiometabólico y trombolítico.</b></p><br>
-      <a href="" target="blank"><img class="float-right" src="assets/img/0805_BI_BOLETIN_BIclick_24.jpg" alt=""></a>
-  
+        Expertos en Medicina</b></span> como usted, brinda conocimientos y herramientas esenciales 
+        para prevenir, detectar y atender de manera oportuna y efectiva distintas 
+        enfermedades, con un enfoque en áreas terapéuticas como: <b>respiratorio,  
+        cardiometabólico y trombolítico.</b><br><br>
+      <a href="" target="blank" class="padding"><img class="float-right" src="assets/img/0805_BI_BOLETIN_BIclick_24.jpg" alt=""></a>
+    </p>
     </columns>
   </row>
 
@@ -120,31 +133,32 @@ subject: My Email Templates
     <columns large="2">
       <spacer size="10"></spacer>
       <center>
-        <img align="left" src="assets/img/0805_BI_BOLETIN_BIclick_29.jpg" alt="">
+        <img align="left padding" src="assets/img/0805_BI_BOLETIN_BIclick_29.jpg" alt="">
       </center>
     </columns>
     <columns large="10">
       <spacer size="10"></spacer>
-      <span class="white-font t1">RECOMENDACIONES</span><br>
-      <span class="yellow-font t3">Encuentre las temáticas de interés y contenidos mejor calificados:</span>
+      <div class="white-font t1 padding">RECOMENDACIONES</div>
+      <div class="yellow-font t3 padding">Encuentre las temáticas de interés y contenidos mejor calificados:</div>
     </columns>
   </row>
 
   <row class="grey-blue-background border-top ">
     <columns class="white-font">
       <br>
-      <p class="white-font evv1 centro">LED 2019</p>
-      <p class="white-font evv4 centro"><i>“México es uno de los países con mayor índice de diabetes, 
+      <p class="padding white-font evv1 ">LED 2019</p>
+      <p class="padding white-font evv4 "><i>“México es uno de los países con mayor índice de diabetes, 
         desafortunadamente, cerca del 50% no han sido diagnosticados y de los que sí, 
-        <span class="blue-light-font"><b>solo 3 de cada 10</b></span> mantiene un adecuado 
+        <span class="padding blue-light-font"><b>solo 3 de cada 10</b></span> mantiene un adecuado 
           control de la enfermedad”.</i></p>
-      <p class="white-font ev3 centro">
+      <p class="padding white-font ev3 font13">
         <span class="blue-light-font"><b>Los Líderes Expertos en Diabetes,</b></span> 
-        tanto nacionales como internacionales, se reúnenpara analizar los 
-        avances en la atenciónintegral y personalizada de pacientes conDM2, 
-        para que puedan evitar enfermedades cardiovasculares y mejorar su calidad de vida. 
+        tanto nacionales como internacionales, se reúnen para analizar los 
+        avances en la atención integral y personalizada de pacientes con DM2, 
+        para que puedan evitar enfermedades cardiovasculares y mejorar su calidad de vida.<br><br>
+        <a href="" target="blank"><img class="" src="assets/img/0805_BI_BOLETIN_BIclick_39.jpg" alt=""></a>
       </p>
-      <a href="" target="blank"><img class="centro" src="assets/img/0805_BI_BOLETIN_BIclick_39.jpg" alt=""></a>
+
       
     </columns>
     <columns class="no-padding no-margin">
@@ -154,23 +168,23 @@ subject: My Email Templates
   <row>
     <center>
       <br>
-      <span class="saludo centro">¿EN QUÉ SE ESPECIALIZA?</span><br>
-      <span class="nombre">Contamos con contenido alineado a sus intereses:</span><br><br>
+      <span class="saludo centro padding">¿EN QUÉ SE ESPECIALIZA?</span><br>
+      <span class="nombre padding">Contamos con contenido alineado a sus intereses:</span><br><br>
     </center>
   </row>
 
   <row class="white-background ">
-    <columns>
-      <img src="assets/img/0805_BI_BOLETIN_BIclick_44.jpg" alt="">
+    <columns  class="text-center">
+      <img src="assets/img/0805_BI_BOLETIN_BIclick_44.jpg" alt="" class="centro">
     </columns>
-    <columns>
-      <img src="assets/img/0805_BI_BOLETIN_BIclick_47.jpg" alt="">
+    <columns  class="text-center">
+      <img src="assets/img/0805_BI_BOLETIN_BIclick_47.jpg" alt="" class="centro">
     </columns>
-    <columns>
-      <img src="assets/img/0805_BI_BOLETIN_BIclick_48.jpg" alt="">
+    <columns  class="text-center">
+      <img src="assets/img/0805_BI_BOLETIN_BIclick_48.jpg" alt="" class="centro">
     </columns>
-    <columns>
-      <img src="assets/img/0805_BI_BOLETIN_BIclick_49.jpg" alt="">
+    <columns  class="text-center">
+      <img src="assets/img/0805_BI_BOLETIN_BIclick_49.jpg" alt="" class="centro">
     </columns>
   </row>
   <row>
@@ -182,7 +196,7 @@ subject: My Email Templates
   <row class="dark-blue-background ">
     <columns large="6">
       <spacer size="10"></spacer>
-      <p class="white-font t3 centro">¿conoce a alguien que puedainteresarle <b>Boehringer Click?</b><br>
+      <p class="white-font t3 centro">¿Conoce a alguien que pueda interesarle <b>Boehringer Click?</b><br>
         <span class="blue-light-font"><b>Recomiéndenos:</b></span></p>
     </columns>
     <columns large="6">
@@ -195,10 +209,10 @@ subject: My Email Templates
     <columns large="6">
       <spacer size="10"></spacer>
       <p class="white-font t3 centro">
-        <a class="white-font" href="" target="blank">AVISO DE Privacidad</a> / 
-        <a class="white-font" href="" target="blank">términos de uso y condiciones</a> / 
-        <a class="white-font" href="" target="blank">contacto</a> / 
-        <unsubscribe>DESUSCRIBIR</unsubscribe></b><br>
+        <a class="white-font legales" href="" target="blank">AVISO DE PRIVACIDAD</a> / 
+        <a class="white-font legales" href="" target="blank">TÉRMINOS DE USO Y CONDICIONES</a> / 
+        <a class="white-font legales" href="" target="blank">CONTACTO</a> / 
+        <a href="#" class="white-font legales">DESUSCRIBIR</unsubscribe></b><br>
         © 2018 Boehringer Ingelheim México. Todos los derechos reservados.</p>
     </columns>
   </row>
@@ -206,12 +220,12 @@ subject: My Email Templates
   <row class="white-background ">
     <columns>
       <spacer size="10"></spacer>
-      <p class="centro nota">
-        Le hemos contactado porque se registró en boehringerclick.mx. El correo a través del cual fue dado de alta es: <a href="mailto:nombre@dominio.com">nombre@dominio.com</a>. 
-        Por favor, háganos saber si se quiere <unsubscribe>desuscribir</unsubscribe> de esta lista. Configure sus preferencias <a href="" target="blank">aquí</a>.</p>
-      <p class="centro nota">
+      <p class="centro nota padding">
+        Le hemos contactado porque se registró en boehringerclick.mx. El correo a través del cual fue dado de alta es: <a class="blue-font underlined" href="mailto:nombre@dominio.com">nombre@dominio.com</a>. 
+        Por favor, háganos saber si se quiere <a class="blue-font underlined" href="">desuscribir</a> de esta lista. Configure sus preferencias <a class="blue-font underlined" href="" target="blank">aquí</a>.</p>
+      <p class="centro nota padding">
         Este newsletter es enviado desde una cuenta que usamos para enviar mensajes solamente. 
-        Si quiere contactarnos por favor no responda sobre este remitente de correo, para este fin acceda a la sección de <a href="" target="blank">contacto</a>.</p>
+        Si quiere contactarnos por favor no responda sobre este remitente de correo, para este fin acceda a la sección de <a class="blue-font underlined" href="" target="blank">contacto</a>.</p>
       <spacer size="10"></spacer>
     </columns>
   </row>
