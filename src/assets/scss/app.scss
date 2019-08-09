@@ -2,7 +2,26 @@
 @import 'foundation-emails';
 
 @import 'template/template';
+p {
+  hyphens: none;
+}
+.link{
+  color: #fff;
+  
+}
+@media all {
 
+  .link:hover{
+    color:  #0099ff;
+    
+  }
+  .link:active{
+    color: #0066cc;
+  }
+  .link:visited{
+    color: #0066cc;
+  }
+}
 .dark-blue-background{
   background-color: #000033;
 }
@@ -39,7 +58,8 @@
   font-size: 24px
 }
 .nota{
-  font-size: 10px;
+  font-size: 12px;
+
 }
 .nombre{
   color: $primary-color;
@@ -58,7 +78,7 @@
   font-weight: bold;
 }
 .t2{
-  font-size: 28px;
+  font-size: 140%;
   font-weight: bold;
 }
 .t3{
@@ -67,6 +87,7 @@
 .border-top {
   border-top-style: solid;
   border-top-width: 1px;
+  border-top-color: #fff;
 }
 .no-padding{
   padding: 0!important;
@@ -77,23 +98,22 @@
 .width-100{
   width: 100%;
 }
+.noBrinco{
+  hyphens: none !important;
+}
 .ev1{
   font-weight: bold;
   font-size: 30px;
   width: 90%;
-  hyphens: none;
-  margin: auto;
 }
 .ev2{
   font-weight: bold;
   font-size: 26px;
   width: 90%;
-  hyphens: none;
 }
 .ev3{
   font-size: 14px;
   width: 90%;
-  hyphens: none;
 }
 .ev4{
   font-size: 16px;
@@ -101,6 +121,7 @@
   border-left-width: 5px;
   border-left-color: #66ccff; 
   padding-left: 20px ;
+  margin-left: 30px;
   width: 60%;
   hyphens: none;
 }
@@ -110,7 +131,6 @@
   font-size: 20px;
   width: 90%;
   hyphens: none;
-  margin: auto;
 }
 .evv2{
   font-weight: bold;
@@ -131,4 +151,17 @@
   padding-left: 20px ;
   width: 70%;
   hyphens: none;
+}
+.legales{
+  font-weight: bold;
+  font-size: 12px;
+}
+.padding{
+  margin:   0 16px;
+}
+.underlined{
+  text-decoration: underline;
+}
+.font13{
+  font-size: 13px;
 }
