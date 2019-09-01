@@ -1,4 +1,4 @@
-# Prueba Emails Responsivos
+# Prueba Email Responsivo
 
 ## Objetivo
 
