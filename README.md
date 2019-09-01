@@ -1,3 +1,39 @@
+# Prueba Emails Responsivos
+
+##Objetivo
+Crear una pieza de correo responsiva:
+
+- Utiliza el framework: [Foundation for Emails](https://foundation.zurb.com/emails.html) también conocido como ZURB
+- Puedes encontrar la documentación en: [https://foundation.zurb.com/emails/docs/](https://foundation.zurb.com/emails/docs/)
+
+##Instrucciones:
+
+- Inicia con este repositorio, no olvides dar: npm install.
+- En la carpeta prueba encontrarás un ejemplo de como debe verse en móvil y en escritorio. Además encontrarás un archivo contenidos.txt con los textos de la pieza.
+- Las imágenes ya están cargadas en la carpeta /src/assets del proyecto.
+- Genera tu html en el archivo /src/pages/index.html
+- Para los estilos propios que necesites generarar utiliza el archivo /assets/scss/template/_template.scss
+- Deberás construirlo con la sintaxis de acuerdo a la documentación, utiliza los tags: row, columns, etc, además de las de html.
+
+## ¿Qué valoramos?
+
+- Tu habilidad para entender la documentación y aprovecharla. Recuerda recurrir al apoyo de tus mentores y/o tutoriales en google.
+- La limpieza de tu código e identación debe ser lo más claro posible (SASS y HTML).
+- Que des preferencia al uso de las sintaxis de ZURB.
+- El crear tus estilos propios y aprovecha las clases propias de ZURB, recuerda basarte en la documentación [https://foundation.zurb.com/emails/docs/alignment.html](https://foundation.zurb.com/emails/docs/alignment.html).
+- Que integres  mediaqueries.
+- La atención que pongas en los detalles: pesos de texto, colores, superíndices y que observes como varía la alineación en responsivo, etc.
+
+## Para terminar
+
+- Genera tu carpeta /dist con la cual valoraremos el resultado final.
+- Es importante revisar tus archivos  /src/pages/index.html y /assets/scss/template/_template.scss no olvide subirlo a un git propio y proporcionarnos la liga.
+
+>  A continuación encontrarás el Readme Original del proyecto de ZURB como referencia, al usar este git como inicio puedes saltarte la parte de instalación  del CLI, gracias por tu aportación.
+
+___
+
+
 # Foundation for Emails Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
