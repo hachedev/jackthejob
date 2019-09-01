@@ -1,12 +1,12 @@
 # Prueba Emails Responsivos
 
-##Objetivo
+#Objetivo
 Crear una pieza de correo responsiva:
 
 - Utiliza el framework: [Foundation for Emails](https://foundation.zurb.com/emails.html) también conocido como ZURB
 - Puedes encontrar la documentación en: [https://foundation.zurb.com/emails/docs/](https://foundation.zurb.com/emails/docs/)
 
-##Instrucciones:
+#Instrucciones:
 
 - Inicia con este repositorio, no olvides dar: npm install.
 - En la carpeta prueba encontrarás un ejemplo de como debe verse en móvil y en escritorio. Además encontrarás un archivo contenidos.txt con los textos de la pieza.
