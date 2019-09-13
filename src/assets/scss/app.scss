@@ -2,3 +2,27 @@
 @import 'foundation-emails';
 
 @import 'template/template';
+
+$white-color: #fff;
+$green-color: #48a948;
+$bg-imaga: #f2faed;
+$dark-color: #0000;
+
+.wrapper-circle{
+  background-color: $bg-imaga;
+}
+.color-text{
+  p{
+    color: $green-color;
+    font-size: 11px
+  }
+}
+.foother-wrapper{
+  .text-foother{
+    color: $white-color;
+    font-size: 12px
+  }
+}
+h6{
+  color: $green-color;
+}
